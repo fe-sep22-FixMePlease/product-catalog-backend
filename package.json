@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "./node_modules/.bin/netlify-lambda serve src",
     "build-dev": "npm run build && node --inspect dist/server.js",
