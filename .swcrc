@@ -6,7 +6,7 @@
   },
   "env": {
     "targets": {
-      "node": 16
+      "node": 14
     }
   }
 }
