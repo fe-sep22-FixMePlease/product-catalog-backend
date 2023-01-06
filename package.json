@@ -52,13 +52,5 @@
     "sequelize": "^6.25.8",
     "serverless-http": "^3.1.0",
     "uuid": "^9.0.0"
-  },
-  "lint-staged": {
-    "*.tsx": "npm run lint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

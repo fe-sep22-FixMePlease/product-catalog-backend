@@ -1,3 +1,5 @@
+// import { Product } from "../types/product";
+// eslint-disable-next-line import/no-unresolved
 import { Product } from "src/types/product";
 
 export const phones: Product[] = [
