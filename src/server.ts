@@ -6,6 +6,7 @@ import { router as productRouter } from './routes/products';
 const app = express();
 
 app.use(cors());
+// app.use(express.static(''));
 
 app.use('/.netlify/functions/server/products', productRouter);
 
