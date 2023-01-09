@@ -15,7 +15,7 @@ export const phones: Product[] = [
       "color": "black",
       "ram": "2GB",
       "year": 2016,
-      "image": "img/phones/apple-iphone-7/black/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-7/black/00.jpg"
     },
     {
       "id": "2",
@@ -30,7 +30,7 @@ export const phones: Product[] = [
       "color": "black",
       "ram": "3GB",
       "year": 2016,
-      "image": "img/phones/apple-iphone-7-plus/black/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-7-plus/black/00.jpg"
     },
     {
       "id": "3",
@@ -45,7 +45,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "2GB",
       "year": 2017,
-      "image": "img/phones/apple-iphone-8/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-8/gold/00.jpg"
     },
     {
       "id": "4",
@@ -60,7 +60,7 @@ export const phones: Product[] = [
       "color": "black",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/black/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/black/00.jpg"
     },
     {
       "id": "5",
@@ -75,7 +75,7 @@ export const phones: Product[] = [
       "color": "yellow",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/yellow/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/yellow/00.jpg"
     },
     {
       "id": "6",
@@ -90,7 +90,7 @@ export const phones: Product[] = [
       "color": "green",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/green/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/green/00.jpg"
     },
     {
       "id": "7",
@@ -105,7 +105,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/gold/00.jpg"
     },
     {
       "id": "8",
@@ -120,7 +120,7 @@ export const phones: Product[] = [
       "color": "midnightgreen",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
     },
     {
       "id": "9",
@@ -135,7 +135,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/silver/00.jpg"
     },
     {
       "id": "10",
@@ -150,7 +150,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
     },
     {
       "id": "11",
@@ -165,7 +165,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/gold/00.jpg"
     },
     {
       "id": "12",
@@ -180,7 +180,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
     },
     {
       "id": "13",
@@ -195,7 +195,7 @@ export const phones: Product[] = [
       "color": "red",
       "ram": "3GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xr/red/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xr/red/00.jpg"
     },
     {
       "id": "14",
@@ -210,7 +210,7 @@ export const phones: Product[] = [
       "color": "white",
       "ram": "3GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xr/white/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xr/white/00.jpg"
     },
     {
       "id": "15",
@@ -225,7 +225,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs/spacegray/00.jpg"
     },
     {
       "id": "16",
@@ -240,7 +240,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs-max/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs-max/gold/00.jpg"
     },
     {
       "id": "17",
@@ -255,7 +255,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs-max/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs-max/silver/00.jpg"
     },
     {
       "id": "18",
@@ -270,7 +270,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "2GB",
       "year": 2016,
-      "image": "img/phones/apple-iphone-7/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-7/gold/00.jpg"
     },
     {
       "id": "19",
@@ -285,7 +285,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "3GB",
       "year": 2016,
-      "image": "img/phones/apple-iphone-7-plus/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-7-plus/silver/00.jpg"
     },
     {
       "id": "20",
@@ -300,7 +300,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "2GB",
       "year": 2017,
-      "image": "img/phones/apple-iphone-8/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-8/spacegray/00.jpg"
     },
     {
       "id": "21",
@@ -315,7 +315,7 @@ export const phones: Product[] = [
       "color": "green",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/green/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/green/00.jpg"
     },
     {
       "id": "22",
@@ -330,7 +330,7 @@ export const phones: Product[] = [
       "color": "purple",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/purple/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/purple/00.jpg"
     },
     {
       "id": "23",
@@ -345,7 +345,7 @@ export const phones: Product[] = [
       "color": "yellow",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/yellow/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/yellow/00.jpg"
     },
     {
       "id": "24",
@@ -360,7 +360,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/gold/00.jpg"
     },
     {
       "id": "25",
@@ -375,7 +375,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/spacegray/00.jpg"
     },
     {
       "id": "26",
@@ -390,7 +390,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/silver/00.jpg"
     },
     {
       "id": "27",
@@ -405,7 +405,7 @@ export const phones: Product[] = [
       "color": "midnightgreen",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
     },
     {
       "id": "28",
@@ -420,7 +420,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/silver/00.jpg"
     },
     {
       "id": "29",
@@ -435,7 +435,7 @@ export const phones: Product[] = [
       "color": "white",
       "ram": "3GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xr/white/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xr/white/00.jpg"
     },
     {
       "id": "30",
@@ -450,7 +450,7 @@ export const phones: Product[] = [
       "color": "coral",
       "ram": "3GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xr/coral/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xr/coral/00.jpg"
     },
     {
       "id": "31",
@@ -465,7 +465,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs/gold/00.jpg"
     },
     {
       "id": "32",
@@ -480,7 +480,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs/spacegray/00.jpg"
     },
     {
       "id": "33",
@@ -495,7 +495,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs-max/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs-max/silver/00.jpg"
     },
     {
       "id": "34",
@@ -510,7 +510,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs-max/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs-max/gold/00.jpg"
     },
     {
       "id": "35",
@@ -525,7 +525,7 @@ export const phones: Product[] = [
       "color": "rosegold",
       "ram": "2GB",
       "year": 2016,
-      "image": "img/phones/apple-iphone-7/rosegold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-7/rosegold/00.jpg"
     },
     {
       "id": "36",
@@ -540,7 +540,7 @@ export const phones: Product[] = [
       "color": "purple",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/purple/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/purple/00.jpg"
     },
     {
       "id": "37",
@@ -555,7 +555,7 @@ export const phones: Product[] = [
       "color": "red",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/red/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/red/00.jpg"
     },
     {
       "id": "38",
@@ -570,7 +570,7 @@ export const phones: Product[] = [
       "color": "black",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/black/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/black/00.jpg"
     },
     {
       "id": "39",
@@ -585,7 +585,7 @@ export const phones: Product[] = [
       "color": "red",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/red/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/red/00.jpg"
     },
     {
       "id": "40",
@@ -600,7 +600,7 @@ export const phones: Product[] = [
       "color": "midnightgreen",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
     },
     {
       "id": "41",
@@ -615,7 +615,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/silver/00.jpg"
     },
     {
       "id": "42",
@@ -630,7 +630,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/gold/00.jpg"
     },
     {
       "id": "43",
@@ -645,7 +645,7 @@ export const phones: Product[] = [
       "color": "midnightgreen",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
     },
     {
       "id": "44",
@@ -660,7 +660,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
     },
     {
       "id": "45",
@@ -675,7 +675,7 @@ export const phones: Product[] = [
       "color": "coral",
       "ram": "3GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xr/coral/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xr/coral/00.jpg"
     },
     {
       "id": "46",
@@ -690,7 +690,7 @@ export const phones: Product[] = [
       "color": "red",
       "ram": "3GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xr/red/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xr/red/00.jpg"
     },
     {
       "id": "47",
@@ -705,7 +705,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs/gold/00.jpg"
     },
     {
       "id": "48",
@@ -720,7 +720,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs-max/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs-max/spacegray/00.jpg"
     },
     {
       "id": "49",
@@ -735,7 +735,7 @@ export const phones: Product[] = [
       "color": "rosegold",
       "ram": "3GB",
       "year": 2016,
-      "image": "img/phones/apple-iphone-7-plus/rosegold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-7-plus/rosegold/00.jpg"
     },
     {
       "id": "50",
@@ -750,7 +750,7 @@ export const phones: Product[] = [
       "color": "white",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/white/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/white/00.jpg"
     },
     {
       "id": "51",
@@ -765,7 +765,7 @@ export const phones: Product[] = [
       "color": "green",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/green/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/green/00.jpg"
     },
     {
       "id": "52",
@@ -780,7 +780,7 @@ export const phones: Product[] = [
       "color": "white",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/white/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/white/00.jpg"
     },
     {
       "id": "53",
@@ -795,7 +795,7 @@ export const phones: Product[] = [
       "color": "black",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/black/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/black/00.jpg"
     },
     {
       "id": "54",
@@ -810,7 +810,7 @@ export const phones: Product[] = [
       "color": "white",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/white/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/white/00.jpg"
     },
     {
       "id": "55",
@@ -825,7 +825,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/spacegray/00.jpg"
     },
     {
       "id": "56",
@@ -840,7 +840,7 @@ export const phones: Product[] = [
       "color": "midnightgreen",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
     },
     {
       "id": "57",
@@ -855,7 +855,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/gold/00.jpg"
     },
     {
       "id": "58",
@@ -870,7 +870,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/silver/00.jpg"
     },
     {
       "id": "59",
@@ -885,7 +885,7 @@ export const phones: Product[] = [
       "color": "midnightgreen",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
     },
     {
       "id": "60",
@@ -900,7 +900,7 @@ export const phones: Product[] = [
       "color": "yellow",
       "ram": "3GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xr/yellow/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xr/yellow/00.jpg"
     },
     {
       "id": "61",
@@ -915,7 +915,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "2GB",
       "year": 2016,
-      "image": "img/phones/apple-iphone-7/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-7/silver/00.jpg"
     },
     {
       "id": "62",
@@ -930,7 +930,7 @@ export const phones: Product[] = [
       "color": "purple",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/purple/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/purple/00.jpg"
     },
     {
       "id": "63",
@@ -945,7 +945,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro-max/gold/00.jpg"
     },
     {
       "id": "64",
@@ -960,7 +960,7 @@ export const phones: Product[] = [
       "color": "yellow",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/yellow/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/yellow/00.jpg"
     },
     {
       "id": "65",
@@ -975,7 +975,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/spacegray/00.jpg"
     },
     {
       "id": "66",
@@ -990,7 +990,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "2GB",
       "year": 2017,
-      "image": "img/phones/apple-iphone-8/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-8/silver/00.jpg"
     },
     {
       "id": "67",
@@ -1005,7 +1005,7 @@ export const phones: Product[] = [
       "color": "red",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11/red/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11/red/00.jpg"
     },
     {
       "id": "68",
@@ -1020,7 +1020,7 @@ export const phones: Product[] = [
       "color": "spacegray",
       "ram": "4GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xs-max/spacegray/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xs-max/spacegray/00.jpg"
     },
     {
       "id": "69",
@@ -1035,7 +1035,7 @@ export const phones: Product[] = [
       "color": "gold",
       "ram": "3GB",
       "year": 2016,
-      "image": "img/phones/apple-iphone-7-plus/gold/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-7-plus/gold/00.jpg"
     },
     {
       "id": "70",
@@ -1050,7 +1050,7 @@ export const phones: Product[] = [
       "color": "silver",
       "ram": "4GB",
       "year": 2019,
-      "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-11-pro/silver/00.jpg"
     },
     {
       "id": "71",
@@ -1065,6 +1065,6 @@ export const phones: Product[] = [
       "color": "yellow",
       "ram": "3GB",
       "year": 2018,
-      "image": "img/phones/apple-iphone-xr/yellow/00.jpg"
+      "image": "https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/img/phones/apple-iphone-xr/yellow/00.jpg"
     }
   ];
