@@ -25,8 +25,14 @@ export function getAll(
     };
 
     // add filter
+    console.log(sortType);
     if (sortType) {
+        console.log('before', product);
+        
         product = _.orderBy(product, [sortType]);
+
+        console.log('after', product);
+
     } 
 
     

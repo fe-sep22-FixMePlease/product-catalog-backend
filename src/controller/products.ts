@@ -10,7 +10,7 @@ const sortType: {} = {
 const categories: {} = {
     phones: 'phones',
     tablets: 'tablets',
-    accessories : 'accessories ',
+    accessories : '9 ',
 };
 
 export const getAll = (req: Request, res: Response) => {
