@@ -1,3 +1,4 @@
+import _ from "lodash";
 import { phones } from "../api/phones";
 import { Product } from "../types/phone";
 
@@ -22,6 +23,13 @@ export function getAll(
     if (categories) {
         product = product.filter(prod => prod.category === categories);
     };
+
+    // add filter
+    if (sortType) {
+        product = _.orderBy(product, [sortType]);
+    } 
+
+    
 
     return  product;
 }
