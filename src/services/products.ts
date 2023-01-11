@@ -36,12 +36,25 @@ export function getAll(
     return  product;
 }
 
+const addStaticImageLink = (productData: any) => {
+    const staticImages = productData.images
+        .map((imgLink:string) => `https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/${imgLink}`);
+    
+    return {...productData, images: staticImages};
+};
+
 export function getOne(productId: string) {
     const productPath = `src/api/phones/${productId}.json`;
 
-    const productData = fs.readFileSync(
-        path.resolve(productPath), 'utf8',
-      );
+    try {
+        const productData = fs.readFileSync(
+            path.resolve(productPath), 'utf8',
+          );
 
-    return productData;
+          const productStaticData = addStaticImageLink(JSON.parse(productData));
+          
+          return JSON.stringify(productStaticData);
+    } catch(e) {
+        return null;
+    }
 }

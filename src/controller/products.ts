@@ -44,6 +44,10 @@ export const getOne = (req: Request, res: Response) => {
     const { productId } = req.params;
     const productData = serviceProduct.getOne(productId);
 
+    if (!productData) {
+        res.sendStatus(404);
+    };
+
     res.setHeader('Content-Type', 'application/json');
     res.end(productData);
 };
