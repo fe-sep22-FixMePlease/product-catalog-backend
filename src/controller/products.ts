@@ -15,10 +15,10 @@ const categories: {} = {
 
 export const getAll = (req: Request, res: Response) => {
     const { 
-        page = '1', 
+        page = '1',
         perPage = 'all', 
         sortBy = '', 
-        category=''
+        category = ''
     } = req.query;
 
     if (
@@ -38,4 +38,12 @@ export const getAll = (req: Request, res: Response) => {
         );
 
     res.send(products);
+};
+
+export const getOne = (req: Request, res: Response) => {
+    const { productId } = req.params;
+    const productData = serviceProduct.getOne(productId);
+
+    res.setHeader('Content-Type', 'application/json');
+    res.end(productData);
 };

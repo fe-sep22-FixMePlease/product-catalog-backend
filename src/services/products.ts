@@ -1,4 +1,6 @@
 import _ from "lodash";
+import path from "path";
+import fs from 'fs';
 import { phones } from "../api/phones";
 import { Product } from "../types/phone";
 
@@ -22,20 +24,24 @@ export function getAll(
 
     if (categories) {
         product = product.filter(prod => prod.category === categories);
+    } else {
+        product = [];
+        return product;
     };
 
-    // add filter
-    console.log(sortType);
     if (sortType) {
-        console.log('before', product);
-        
         product = _.orderBy(product, [sortType]);
-
-        console.log('after', product);
-
     } 
 
-    
-
     return  product;
+}
+
+export function getOne(productId: string) {
+    const productPath = `src/api/phones/${productId}.json`;
+
+    const productData = fs.readFileSync(
+        path.resolve(productPath), 'utf8',
+      );
+
+    return productData;
 }
