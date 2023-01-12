@@ -55,7 +55,7 @@ export function getOne(productId: string) {
           
           return JSON.stringify(productStaticData);
     } catch(e) {
-        return null;
+        return JSON.stringify(e);
     }
 }
 
