@@ -13,5 +13,5 @@ const middleware = (action: string) => (req: Request, res: Response, next: NextF
     };
 };
 
-router.get('/:productId', middleware('productId'), productController.getOne);
+router.get('/:productId', middleware('productId'), productController.getOneById );
 router.get('/new', middleware('new'), productController.getNewests);

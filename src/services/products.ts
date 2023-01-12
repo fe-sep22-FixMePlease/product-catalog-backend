@@ -43,9 +43,9 @@ const addStaticImageLink = (productData: any) => {
     return {...productData, images: staticImages};
 };
 
-export function getOne(productId: string) {
-    const productPath = `src/api/phones/${productId}.json`;
-
+export function getOneById(productId: string) {
+    const productPath = `./phones/${productId}.json`;
+    
     try {
         const productData = fs.readFileSync(
             path.resolve(productPath), 'utf8',
