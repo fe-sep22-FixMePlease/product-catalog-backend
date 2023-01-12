@@ -1,4 +1,6 @@
 import _ from "lodash";
+import path from "path";
+import fs from 'fs';
 import { phones } from "../api/phones";
 import { Product } from "../types/phone";
 
@@ -22,20 +24,51 @@ export function getAll(
 
     if (categories) {
         product = product.filter(prod => prod.category === categories);
+    } else {
+        product = [];
+        return product;
     };
 
-    // add filter
-    console.log(sortType);
     if (sortType) {
-        console.log('before', product);
-        
         product = _.orderBy(product, [sortType]);
-
-        console.log('after', product);
-
     } 
 
-    
-
     return  product;
+}
+
+const addStaticImageLink = (productData: any) => {
+    const staticImages = productData.images
+        .map((imgLink:string) => `https://raw.githubusercontent.com/mate-academy/product_catalog/main/public/${imgLink}`);
+    
+    return {...productData, images: staticImages};
+};
+
+export function getOne(productId: string) {
+    const productPath = `src/api/phones/${productId}.json`;
+
+    try {
+        const productData = fs.readFileSync(
+            path.resolve(productPath), 'utf8',
+          );
+
+          const productStaticData = addStaticImageLink(JSON.parse(productData));
+          
+          return JSON.stringify(productStaticData);
+    } catch(e) {
+        return null;
+    }
+}
+
+export function getNewests(category: string) {
+    let products = phones;
+
+    if (category) {
+        products = products.filter(prod => prod.category === category);
+    }
+
+    const lastYearOfProduct = Math.max(...products.map(product => product.year));
+
+    products = products.filter(product => product.year === lastYearOfProduct);
+
+    return products;
 }
