@@ -58,3 +58,17 @@ export function getOne(productId: string) {
         return null;
     }
 }
+
+export function getNewests(category: string) {
+    let products = phones;
+
+    if (category) {
+        products = products.filter(prod => prod.category === category);
+    }
+
+    const lastYearOfProduct = Math.max(...products.map(product => product.year));
+
+    products = products.filter(product => product.year === lastYearOfProduct);
+
+    return products;
+}

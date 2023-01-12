@@ -42,12 +42,27 @@ export const getAll = (req: Request, res: Response) => {
 
 export const getOne = (req: Request, res: Response) => {
     const { productId } = req.params;
+    console.log(req.params);
+    
     const productData = serviceProduct.getOne(productId);
-
+    
     if (!productData) {
         res.sendStatus(404);
     };
 
     res.setHeader('Content-Type', 'application/json');
     res.end(productData);
+};
+
+export const getNewests = (req: Request, res: Response) => {
+    let { category = '' } = req.query;
+
+    if (typeof category !== 'string') {
+        category = '';
+    }
+
+    const newests = serviceProduct.getNewests(category);
+
+    res.send(newests);
+    // res.send('still work');
 };
