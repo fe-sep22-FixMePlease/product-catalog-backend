@@ -40,11 +40,11 @@ export const getAll = (req: Request, res: Response) => {
     res.send(products);
 };
 
-export const getOne = (req: Request, res: Response) => {
+export const getOneById  = (req: Request, res: Response) => {
     const { productId } = req.params;
     console.log(req.params);
     
-    const productData = serviceProduct.getOne(productId);
+    const productData = serviceProduct.getOneById(productId);
     
     if (!productData) {
         res.sendStatus(404);
@@ -64,5 +64,4 @@ export const getNewests = (req: Request, res: Response) => {
     const newests = serviceProduct.getNewests(category);
 
     res.send(newests);
-    // res.send('still work');
 };
