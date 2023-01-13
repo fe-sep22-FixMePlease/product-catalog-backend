@@ -30,6 +30,9 @@ export function getAll(
     };
 
     if (sortType) {
+        if (sortType === 'year') {
+            return _.orderBy(product, [sortType]).reverse();
+        }
         product = _.orderBy(product, [sortType]);
     } 
 
@@ -44,7 +47,8 @@ const addStaticImageLink = (productData: any) => {
 };
 
 export function getOneById(productId: string) {
-    const productPath = `./phones/${productId}.json`;
+    // const productPath = `src/api/phones/${productId}.json`;
+    const productPath = `src/api/phones/${productId}.json`;
     
     try {
         const productData = fs.readFileSync(
