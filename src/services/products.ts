@@ -14,13 +14,7 @@ export function getAll(
         return phones;
     };
 
-    const from = +page === 1 
-    ? 0 
-    : +page * +perPage - 1;
-
-    const to = from + +perPage;
-
-    let product = phones.slice(from, to);
+    let product = phones.slice((+page - 1) * +perPage, +page * +perPage);
 
     if (categories) {
         product = product.filter(prod => prod.category === categories);
