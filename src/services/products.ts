@@ -30,9 +30,11 @@ export function getAll(
     };
 
     if (sortType) {
+        
         if (sortType === 'year') {
             return _.orderBy(product, [sortType]).reverse();
         }
+
         product = _.orderBy(product, [sortType]);
     } 
 

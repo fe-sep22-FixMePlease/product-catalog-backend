@@ -42,7 +42,6 @@ export const getAll = (req: Request, res: Response) => {
 
 export const getOneById  = (req: Request, res: Response) => {
     const { productId } = req.params;
-    console.log(req.params);
     
     const productData = serviceProduct.getOneById(productId);
     
